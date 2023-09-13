@@ -1,0 +1,196 @@
+{
+    "data":[
+        {"courses":[
+            {
+                "courseid":"C1",
+                "name":"Flute classes",
+                "description":"The flute is an instrument that belongs to the woodwind group.",
+                "instructor":"Arvind",
+                "instrument":"Flute",
+                "dayofweek":"Friday",
+                "noOfStudents":"20",
+                "price":"$ 254",
+                "status":"Active"
+            },
+            {
+                "courseid":"C2",
+                "name":"Guitar Classes",
+                "description":"The guitar is a fretted musical instrument that typically has six strings.",
+                "instructor":"Vishal",
+                "instrument":"Guitar",
+                "dayofweek":"Tuesday",
+                "noOfStudents":"40",
+                "price":"$ 25",
+                "status":"Closed"
+            },
+            {
+                "courseid":"C3",
+                "name":"Piano classes",
+                "description":"The piano is a keyboard instrument that produces sound when pressed on the keys.",
+                "instructor":"Puja",
+                "instrument":"Piano",
+                "dayofweek":"Wednesdy",
+                "noOfStudents":"80",
+                "price":"$ 250",
+                "status":"Active"
+            },
+            {
+                "courseid":"C4",
+                "name":"Saxaphone clsses",
+                "description":"The saxophone (often referred to colloquially as the sax) is a type of single-reed woodwind",
+                "instructor":"Vijay",
+                "instrument":"Saxaphone",
+                "dayofweek":"Tuesday",
+                "noOfStudents":"102",
+                "price":"$ 54",
+                "status":"Archived"
+            },
+            {
+                "courseid":"C5",
+                "name":"Violin classes",
+                "description":"The violin, sometimes known as a fiddle, is a wooden chordophone (string instrument) in the violin family.",
+                "instructor":"Haider",
+                "instrument":"Violin",
+                "dayofweek":"Monday",
+                "noOfStudents":"55",
+                "price":" $ 250",
+                "status":"Closed"
+            },
+            {
+                "courseid":"C6",
+                "name":"Drum classes",
+                "description":"The drum is a member of the percussion group of musical instruments.",
+                "instructor":"Vicky",
+                "instrument":"Drum",
+                "dayofweek":"Sunday",
+                "noOfStudents":"59",
+                "price":"$ 190",
+                "status":"Active"
+            },
+            {
+                "courseid":"C7",
+                "name":"Trumpet clases",
+                "description":"The trumpet is a brass instrument commonly used in classical and jazz ensembles.",
+                "instructor":"James",
+                "instrument":"Trumpet",
+                "dayofweek":"Saturday",
+                "noOfStudents":"69",
+                "price":"$ 100",
+                "status":"Archived"
+            },
+            {
+                "courseid":"C8",
+                "name":"Cello classes",
+                "description":"A cello is a stringed instrument that belongs to the family of the violin.",
+                "instructor":"Maddy",
+                "instrument":"Cello",
+                "dayofweek":"Friday",
+                "noOfStudents":"74",
+                "price":"$ 450",
+                "status":"Closed"
+            },
+            {
+                "courseid":"C9",
+                "name":"Accordion classes",
+                "description":"Accordions belong to the bellows-driven free-reed aerophone type musical instrument. ",
+                "instructor":"Neil",
+                "instrument":"Accordion",
+                "dayofweek":"Thursday",
+                "noOfStudents":"25",
+                "price":"$ 350",
+                "status":"Active"
+            },
+            {
+                "courseid":"C10",
+                "name":"Trombone classes",
+                "description":"The trombone is a musical instrument in the brass family.",
+                "instructor":"Brain",
+                "instrument":"Trombone",
+                "dayofweek":"Wednesday",
+                "noOfStudents":"23",
+                "price":"$ 250",
+                "status":"Archived"
+            }
+        ]},
+        {"enrolments":[
+            {
+                "Eno":"152354",
+                "SName":"John Doe",
+                "CName":"Percussion",
+                "Fees":"$ 120",
+                "EDate":"12.08.2023"
+            },
+            {
+                "Eno":"152854",
+                "SName":"Alice Wills",
+                "CName":"Percussion",
+                "Fees":"$ 220",
+                "EDate":"02.09.2023"
+            },
+            {
+                "Eno":"157354",
+                "SName":"Renne Shaw",
+                "CName":"Percussion",
+                "Fees":"$ 110",
+                "EDate":"03.10.2023"
+            },
+            {
+                "Eno":"152754",
+                "SName":"Steve Diaz",
+                "CName":"Percussion",
+                "Fees":"$ 230",
+                "EDate":"12.06.2023"
+            },
+            {
+                "Eno":"152554",
+                "SName":"Luke Doe",
+                "CName":"Percussion",
+                "Fees":"$ 345",
+                "EDate":"12.03.2023"
+            }
+
+        ]},
+        {"registration":[
+            {
+                "RegNo":"58795",
+                "FName":"John",
+                "LName":"Wall",
+                "CourseNo":"Flute Classes",
+                "TotalFees":"254",
+                "RegDate":"01.01.2023"
+            },
+            {
+                "RegNo":"78954",
+                "FName":"Peter",
+                "LName":"Dam",
+                "CourseNo":"Drum Classes",
+                "TotalFees":"154",
+                "RegDate":"10.02.2023"
+            },
+            {
+                "RegNo":"32547",
+                "FName":"Ricky",
+                "LName":"Gems",
+                "CourseNo":"Saxaphone Classes",
+                "TotalFees":"754",
+                "RegDate":"05.04.2023"
+            },
+            {
+                "RegNo":"57201",
+                "FName":"Emma",
+                "LName":"Stone",
+                "CourseNo":"Vaolin Classes",
+                "TotalFees":"200",
+                "RegDate":"01.07.2023"
+            },
+            {
+                "RegNo":"00217",
+                "FName":"Peter",
+                "LName":"Braid",
+                "CourseNo":"Guitar Classes",
+                "TotalFees":"999",
+                "RegDate":"15.01.2023"
+            }
+        ]}
+    ]
+}

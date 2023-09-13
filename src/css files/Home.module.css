@@ -1,0 +1,163 @@
+.container{
+    display: flex;
+}
+
+.rightSide{
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: 73rem;
+    /* border: 1px solid red; */
+    margin-left: 1rem;
+}
+
+.rightSide>:nth-child(1){
+    margin-top: 3rem;
+    color: rgb(117, 117, 117);
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topFlexBox{
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+
+.topFlexBox>div{
+    width: 16rem;
+    border-radius: 0.4rem;
+    height: 6.2rem;
+    /* border: 1px solid red; */
+    background-color: white;
+    display: flex;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+/* .dataDiv>div{
+    border: 1px solid black;
+} */
+
+.dataDiv>:nth-child(2){
+    /* background-color: aquamarine; */
+    /* border: 1px solid red; */
+    padding-left: 0.5rem;
+}
+
+.proPic{
+    height: 2.3rem;
+    margin-top: 0.8rem;
+}
+
+.dataDiv>:nth-child(2)>:nth-child(1){
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.5rem;
+}
+
+.dataDiv>:nth-child(2)>:nth-child(2){
+    margin-top: -1.5rem;
+    color: rgb(121, 121, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+}
+
+.dataDiv>:nth-child(2)>:nth-child(3){
+    color: rgb(167, 39, 39);
+    margin-top: 1rem;
+    margin-left: 7.7rem;
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ============================================================================== */
+    
+.secondDiv>:nth-child(1)>:nth-child(1){
+    color: rgb(117, 115, 115);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2.5rem;
+}
+
+.secondDiv>:nth-child(1){
+    display: flex;
+}
+
+.secondDiv>:nth-child(1)>:nth-child(2){
+    color: rgb(167, 39, 39);
+    margin-top: 2.5rem;
+    margin-left: 52.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    cursor: pointer;
+}
+
+
+.Table1{
+    background-color: rgb(255, 255, 255);
+    width: 73rem;
+    height: 18rem;
+    border-radius: 0.5rem;
+    /* text-align: start; */
+    /* justify-content: space-between; */
+    padding: 1.5rem 1.5rem 2rem 1.5rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.Table1>:nth-child(1)>:nth-child(2){
+    background-color: brown;
+}
+/* .Table>th{
+    border: 1px solid red;
+    background-color: blue;
+    text-align: start;
+} */
+
+th{
+    border-bottom: 1px solid rgb(126, 129, 128);
+    text-align: start;
+    width: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+td{
+    border-bottom: 1px solid rgb(209, 214, 212);
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.5rem 0 0.5rem;
+}
+
+
+/* ======================================================================================================== */
+
+.Table2{
+    background-color: rgb(255, 255, 255);
+    width: 73rem;
+    height: 18rem;
+    border-radius: 0.5rem;
+    /* text-align: start; */
+    /* justify-content: space-between; */
+    padding: 1.5rem 1.5rem 2rem 1.5rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thirdDiv>:nth-child(1)>:nth-child(1){
+    color: rgb(117, 115, 115);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2.5rem;
+    
+}
+
+.thirdDiv>:nth-child(1){
+    display: flex;
+}
+
+.thirdDiv>:nth-child(1)>:nth-child(2){
+    color: rgb(167, 39, 39);
+    margin-top: 2.5rem;
+    margin-left: 54.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}

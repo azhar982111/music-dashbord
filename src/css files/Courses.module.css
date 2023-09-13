@@ -1,0 +1,142 @@
+.container {
+    display: flex;
+}
+
+.rightSide {
+    width: 76rem;
+    margin-left: 1rem;
+    /* border: 1px solid red; */
+}
+
+.rightSide>:nth-child(1) {
+    color: rgb(155, 153, 153);
+    padding-left: 1.5rem;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tableDiv {
+    padding-left: 1.7rem;
+}
+
+.tableDiv>:nth-child(1)>:nth-child(1) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: rgb(155, 153, 153);
+}
+
+.Table1 {
+    background-color: rgb(255, 255, 255);
+    width: 74rem;
+    /* height: 18rem; */
+    border-radius: 0.5rem;
+    /* text-align: start; */
+    /* justify-content: space-between; */
+    padding: 1.2rem 1.2rem 2rem 1.2rem;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.courseList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courseList>:nth-child(2){
+    margin-right: 0.3rem;
+    margin-top: 0.5rem;
+    height: 1rem;
+    width: 15rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+/* td{
+    width: 1rem;
+    background-color: rgb(22, 145, 194)5
+} */
+
+th:nth-child(1){
+width: 5rem;
+text-align: start;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th:nth-child(2),
+th:nth-child(3),
+th:nth-child(4),
+th:nth-child(5),
+th:nth-child(6),
+th:nth-child(7),
+th:nth-child(8),
+th:nth-child(9){
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+th:nth-child(5),
+th:nth-child(8){
+    width: 4rem;
+    /* background-color: rgb(189, 132, 243); */
+}
+
+
+
+td:nth-child(1){
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6),
+td:nth-child(7),
+td:nth-child(8),
+td:nth-child(9)
+{
+    text-align: start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.description{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    width: 5rem;
+}
+
+
+/* th:nth-child(1){
+    text-align: start;
+}
+
+th:nth-child(2){
+    text-align: center;
+}
+
+td:nth-child(2){
+    padding-left: 1rem;
+    text-align: start;
+}
+
+td:nth-child(1)
+{
+    text-align: start;
+} 
+
+
+th:nth-child(5),
+th:nth-child(6),
+th:nth-child(8),
+th:nth-child(2)
+{
+
+    width: 7rem;
+} */
+
+
