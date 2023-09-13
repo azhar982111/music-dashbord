@@ -7,3 +7,8 @@ In order to login successfully please use the below credentials. I have used req
     cityslicka            -------- password
 
 - 
+
+
+Deployed link ---
+
+https://music-dashboard-vite.netlify.app/
